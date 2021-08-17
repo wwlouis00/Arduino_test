@@ -6,8 +6,8 @@ void setup() {
 }
 
 void loop() {
-  boolean val = digitalRead(SW); //讀取開關數值
-  if (val)  //如果打開是高電位
+  boolean val = digitalRead(SW); /*讀取開關數值*/
+  if (val)  /*如果打開是高電位*/
   {
     digitalWrite(LED,HIGH);
   }
